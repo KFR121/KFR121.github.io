@@ -154,7 +154,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-size: 19px;
+  font-size: 30px;
   background-color: #fefefe;
   color: #04143a;
   background-size: 100%;
@@ -165,7 +165,7 @@ body {
 
 p {
   color: #15171a;
-  font-size: 30;
+  font-size: 30px;
   line-height: 31px;
 }
 
