@@ -337,8 +337,8 @@ h1.name {
 }
 
 .slack img {
-  width: 500px;
-  height: 370px;
+  width: 400px;
+  height: 296px;
   border-radius: 5px;
   float: left;
   margin-right: 10px;
@@ -442,7 +442,37 @@ h1.name {
     margin-top: 20px;
   }
 
-  .yepyep .section-title {
-    margin-top: 80px;
+ .wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:140px;
+  border-right:2px solid #000;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
   }
+}
 }
