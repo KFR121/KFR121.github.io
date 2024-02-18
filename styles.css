@@ -162,25 +162,10 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 p {
   color: #15171a;
-  font-size: 17;
+  font-size: 30;
   line-height: 31px;
 }
 
@@ -341,15 +326,6 @@ h1.name {
   opacity: 100% !important;
 }
 
-.yepyep ul li:before {
-  content: '✓';
-  font-size: 14px;
-  font-weight: bold;
-  color: green;
-  padding-right: 10px;
-  opacity: 100% !important;
-}
-
 *[dir='rtl'] .nonos ul li:before,
 *[dir='rtl'] .yepyep ul li:before {
   padding-right: 0;
@@ -374,22 +350,6 @@ h1.name {
   margin-left: 10px;
 }
 
-.slack .slackname {
-  font-weight: 600;
-  font-size: 14px;
-  color: #1d1c1d;
-}
-
-.slack .slacktime {
-  font-size: 14px;
-  color: #616061;
-}
-
-.slack .slackmessage {
-  font-size: 16px;
-  color: #1d1c1d;
-}
-
 .card {
   width: 47.9%;
   height: 200px;
@@ -409,24 +369,6 @@ h1.name {
   background-color: #fff;
   box-shadow: 0px 5px 50px -8px #ddd;
   cursor: pointer;
-}
-
-.other-languages p,
-.other-languages ul,
-.other-languages li {
-  display: inline;
-}
-
-.other-languages li:after {
-  content: ',';
-}
-
-.other-languages li:last-child:before {
-  content: '& ';
-}
-
-.other-languages li:last-child:after {
-  content: '.';
 }
 
 /* media queries*/
