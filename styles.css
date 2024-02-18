@@ -23,7 +23,7 @@ a,
 abbr,
 acronym,
 address,
-big,f
+big,
 cite,
 code,
 del,
@@ -162,10 +162,25 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 p {
   color: #15171a;
-  font-size: 17px;
+  font-size: 17;
   line-height: 31px;
 }
 
@@ -224,7 +239,7 @@ h1.name {
 .lead {
   font-size: 44px;
   font-weight: 300;
-  margin-top: 40px;
+  margin-top: 60px;
   line-height: 55px;
 }
 
@@ -309,7 +324,7 @@ h1.name {
   line-height: 24px;
   margin-bottom: 16px;
   margin-left: 20px;
-  margin-top: -10px;
+  margin-top: -20px;
   opacity: 70%;
 }
 
@@ -326,6 +341,15 @@ h1.name {
   opacity: 100% !important;
 }
 
+.yepyep ul li:before {
+  content: '✓';
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+  padding-right: 10px;
+  opacity: 100% !important;
+}
+
 *[dir='rtl'] .nonos ul li:before,
 *[dir='rtl'] .yepyep ul li:before {
   padding-right: 0;
@@ -337,8 +361,8 @@ h1.name {
 }
 
 .slack img {
-  width: 300px;
-  height: 222px;
+  width: 42px;
+  height: 42px;
   border-radius: 5px;
   float: left;
   margin-right: 10px;
@@ -350,6 +374,22 @@ h1.name {
   margin-left: 10px;
 }
 
+.slack .slackname {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1c1d;
+}
+
+.slack .slacktime {
+  font-size: 14px;
+  color: #616061;
+}
+
+.slack .slackmessage {
+  font-size: 16px;
+  color: #1d1c1d;
+}
+
 .card {
   width: 47.9%;
   height: 200px;
@@ -359,7 +399,7 @@ h1.name {
   vertical-align: top;
   border-radius: 10px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .card-active,
@@ -369,6 +409,24 @@ h1.name {
   background-color: #fff;
   box-shadow: 0px 5px 50px -8px #ddd;
   cursor: pointer;
+}
+
+.other-languages p,
+.other-languages ul,
+.other-languages li {
+  display: inline;
+}
+
+.other-languages li:after {
+  content: ',';
+}
+
+.other-languages li:last-child:before {
+  content: '& ';
+}
+
+.other-languages li:last-child:after {
+  content: '.';
 }
 
 /* media queries*/
@@ -410,7 +468,7 @@ h1.name {
 
   .card,
   .sections {
-    width: 100%;https://github.com/KFR121/KFR121.github.io/blob/main/styles.css
+    width: 100%;
     height: auto;
     margin: 10px 0;
     float: left;
@@ -442,4 +500,7 @@ h1.name {
     margin-top: 20px;
   }
 
+  .yepyep .section-title {
+    margin-top: 80px;
+  }
 }
