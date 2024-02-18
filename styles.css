@@ -309,7 +309,7 @@ h1.name {
   line-height: 24px;
   margin-bottom: 16px;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: -10px;
   opacity: 70%;
 }
 
@@ -359,7 +359,7 @@ h1.name {
   vertical-align: top;
   border-radius: 10px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .card-active,
