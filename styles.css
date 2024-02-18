@@ -264,6 +264,12 @@ h1.name {
   margin-bottom: 15px;
 }
 
+.boddy {
+  font-size: 16px;
+  font-weight: 400;
+  color: #616061;
+}
+
 .list-card.example {
   -moz-box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.46);
   margin: 30px 80px;
