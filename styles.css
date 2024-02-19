@@ -269,8 +269,7 @@ h1.name {
   font-size: 20px;
   font-weight: 400;
   color: #616061;
-  display: block;
-  height: 100%;
+  display: inline-block;
 }
 
 
