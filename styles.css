@@ -212,12 +212,6 @@ footer,
 @media (max-width: 1024px) {
   .hero {
     margin: 60px auto;},
-  .sections {
-    width: 100%;
-    height: auto;
-    margin: 100px 0;
-    float: left;
-  }
 
 h1.name {
   font-size: 94px;
@@ -402,12 +396,6 @@ h1.name {
   .container {
     padding: 15px;
     margin: 0px auto;
-  },
-  .sections {
-    width: 100%;
-    height: auto;
-    margin: 100px 0;
-    float: left;
   }
 }
 
