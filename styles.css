@@ -211,7 +211,9 @@ footer,
 
 @media (max-width: 1024px) {
   .hero {
-    margin: 60px auto;},
+    margin: 60px auto;
+  }
+}
 
 h1.name {
   font-size: 94px;
