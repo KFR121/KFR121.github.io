@@ -103,7 +103,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+  display: in-line block;
 }
 
 a {
