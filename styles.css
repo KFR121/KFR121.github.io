@@ -105,6 +105,7 @@ nav,
 section {
   display: block;
 }
+
 a {
   text-decoration: none;
   text-transform: none;
@@ -269,6 +270,7 @@ h1.name {
   font-weight: 400;
   color: #616061;
   display: block;
+  height: 100%;
 }
 
 
