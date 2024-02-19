@@ -270,23 +270,6 @@ h1.name {
   color: #616061;
 }
 
-.list-card.example {
-  -moz-box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.46);
-  margin: 30px 80px;
-  padding: 25px 25px 10px 25px;
-  border-radius: 10px;
-  background: #ffffff;
-  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-}
-
-*[dir='ltr'] .list-card.example {
-  margin-left: 0;
-}
-
-*[dir='rtl'] .list-card.example {
-  margin-right: 0;
-}
-
 .list-card .exp,
 .list-card div {
   display: inline-block;
@@ -343,15 +326,6 @@ h1.name {
   content: '×';
   color: red;
   font-weight: bold;
-  padding-right: 10px;
-  opacity: 100% !important;
-}
-
-.yepyep ul li:before {
-  content: '✓';
-  font-size: 14px;
-  font-weight: bold;
-  color: green;
   padding-right: 10px;
   opacity: 100% !important;
 }
@@ -417,24 +391,6 @@ h1.name {
   cursor: pointer;
 }
 
-.other-languages p,
-.other-languages ul,
-.other-languages li {
-  display: inline;
-}
-
-.other-languages li:after {
-  content: ',';
-}
-
-.other-languages li:last-child:before {
-  content: '& ';
-}
-
-.other-languages li:last-child:after {
-  content: '.';
-}
-
 /* media queries*/
 
 @media (max-width: 1024px) {
@@ -495,18 +451,9 @@ h1.name {
     margin-top: -30px !important;
   }
 
-  .list-card.example {
-    margin: 30px 10px -20px 0;
-    padding: 25px 25px 10px 25px;
-    border-radius: 10px;
-  }
-
   .section-title {
     font-size: 15px;
     margin-top: 10px;
   }
 
-  .yepyep .section-title {
-    margin-top: 80px;
-  }
 }
